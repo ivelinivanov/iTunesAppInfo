@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5544F0CF179EA4FE00185CB7 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5544F0CD179EA4FE00185CB7 /* icon.png */; };
+		5544F0D0179EA4FE00185CB7 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5544F0CE179EA4FE00185CB7 /* icon@2x.png */; };
 		55DC6F7F179D34F300FFDEC6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55DC6F7E179D34F300FFDEC6 /* UIKit.framework */; };
 		55DC6F81179D34F300FFDEC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55DC6F80179D34F300FFDEC6 /* Foundation.framework */; };
 		55DC6F83179D34F300FFDEC6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55DC6F82179D34F300FFDEC6 /* CoreGraphics.framework */; };
@@ -20,9 +22,14 @@
 		55DC6F9B179D34F300FFDEC6 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55DC6F99179D34F300FFDEC6 /* MainStoryboard_iPad.storyboard */; };
 		55DC6F9E179D34F300FFDEC6 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55DC6F9D179D34F300FFDEC6 /* MasterViewController.m */; };
 		55DC6FA1179D34F400FFDEC6 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55DC6FA0179D34F400FFDEC6 /* DetailViewController.m */; };
+		55DC6FA9179D351900FFDEC6 /* iTunesWebServiceWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = 55DC6FA8179D351900FFDEC6 /* iTunesWebServiceWorker.m */; };
+		55DC6FAD179D365700FFDEC6 /* iTunesWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 55DC6FAC179D365700FFDEC6 /* iTunesWebService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		552875C1179E7DCE00DF71FE /* MasterViewControllerConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewControllerConstants.h; sourceTree = "<group>"; };
+		5544F0CD179EA4FE00185CB7 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		5544F0CE179EA4FE00185CB7 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 		55DC6F7B179D34F300FFDEC6 /* iTunesAppInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTunesAppInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55DC6F7E179D34F300FFDEC6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		55DC6F80179D34F300FFDEC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -42,6 +49,12 @@
 		55DC6F9D179D34F300FFDEC6 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		55DC6F9F179D34F400FFDEC6 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		55DC6FA0179D34F400FFDEC6 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		55DC6FA7179D351900FFDEC6 /* iTunesWebServiceWorker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTunesWebServiceWorker.h; sourceTree = "<group>"; };
+		55DC6FA8179D351900FFDEC6 /* iTunesWebServiceWorker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iTunesWebServiceWorker.m; sourceTree = "<group>"; };
+		55DC6FAA179D35DE00FFDEC6 /* iTunesWebServiceConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTunesWebServiceConstants.h; sourceTree = "<group>"; };
+		55DC6FAB179D365700FFDEC6 /* iTunesWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTunesWebService.h; sourceTree = "<group>"; };
+		55DC6FAC179D365700FFDEC6 /* iTunesWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iTunesWebService.m; sourceTree = "<group>"; };
+		55DC6FAE179D76A700FFDEC6 /* DetailViewControllerConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewControllerConstants.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,14 +101,23 @@
 		55DC6F84179D34F300FFDEC6 /* iTunesAppInfo */ = {
 			isa = PBXGroup;
 			children = (
+				5544F0CD179EA4FE00185CB7 /* icon.png */,
+				5544F0CE179EA4FE00185CB7 /* icon@2x.png */,
 				55DC6F8D179D34F300FFDEC6 /* AppDelegate.h */,
 				55DC6F8E179D34F300FFDEC6 /* AppDelegate.m */,
 				55DC6F96179D34F300FFDEC6 /* MainStoryboard_iPhone.storyboard */,
 				55DC6F99179D34F300FFDEC6 /* MainStoryboard_iPad.storyboard */,
+				552875C1179E7DCE00DF71FE /* MasterViewControllerConstants.h */,
 				55DC6F9C179D34F300FFDEC6 /* MasterViewController.h */,
 				55DC6F9D179D34F300FFDEC6 /* MasterViewController.m */,
+				55DC6FAE179D76A700FFDEC6 /* DetailViewControllerConstants.h */,
 				55DC6F9F179D34F400FFDEC6 /* DetailViewController.h */,
 				55DC6FA0179D34F400FFDEC6 /* DetailViewController.m */,
+				55DC6FAA179D35DE00FFDEC6 /* iTunesWebServiceConstants.h */,
+				55DC6FA7179D351900FFDEC6 /* iTunesWebServiceWorker.h */,
+				55DC6FA8179D351900FFDEC6 /* iTunesWebServiceWorker.m */,
+				55DC6FAB179D365700FFDEC6 /* iTunesWebService.h */,
+				55DC6FAC179D365700FFDEC6 /* iTunesWebService.m */,
 				55DC6F85179D34F300FFDEC6 /* Supporting Files */,
 			);
 			path = iTunesAppInfo;
@@ -172,6 +194,8 @@
 				55DC6F95179D34F300FFDEC6 /* Default-568h@2x.png in Resources */,
 				55DC6F98179D34F300FFDEC6 /* MainStoryboard_iPhone.storyboard in Resources */,
 				55DC6F9B179D34F300FFDEC6 /* MainStoryboard_iPad.storyboard in Resources */,
+				5544F0CF179EA4FE00185CB7 /* icon.png in Resources */,
+				5544F0D0179EA4FE00185CB7 /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,6 +210,8 @@
 				55DC6F8F179D34F300FFDEC6 /* AppDelegate.m in Sources */,
 				55DC6F9E179D34F300FFDEC6 /* MasterViewController.m in Sources */,
 				55DC6FA1179D34F400FFDEC6 /* DetailViewController.m in Sources */,
+				55DC6FA9179D351900FFDEC6 /* iTunesWebServiceWorker.m in Sources */,
+				55DC6FAD179D365700FFDEC6 /* iTunesWebService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +344,7 @@
 				55DC6FA6179D34F400FFDEC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

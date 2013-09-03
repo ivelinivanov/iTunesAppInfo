@@ -7,11 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "iTunesWebService.h"
+#import "MasterViewControllerConstants.h"
 
 @class DetailViewController;
 
 @interface MasterViewController : UITableViewController
 
 @property (strong, nonatomic) DetailViewController *detailViewController;
+@property (strong, nonatomic) NSArray *apps;
 
 @end
